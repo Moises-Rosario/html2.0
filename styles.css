@@ -1,0 +1,102 @@
+.body-class {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-class {
+  background-color: #004466;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-class {
+  background-color: #006080;
+  padding: 10px;
+}
+
+.nav-class a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-class a.active {
+  font-weight: bold;
+}
+
+.nav-class a:hover {
+  font-weight: bold;
+}
+
+.title-class {
+  color: #3aa769;
+}
+
+.section-title-class {
+  color: #2e8b57;
+}
+
+.text-class {
+  color: #333333;
+}
+
+.image-class {
+  border: 3px solid #2e8b57;
+  max-width: 100%;
+  height: auto;
+}
+
+.form-class {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.input-class {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.button-class {
+  background-color: #004466;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: auto;
+}
+
+.button-class:hover {
+  background-color: #006080;
+}
+
+.footer-class {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .header-class, .footer-class {
+    padding: 10px;
+  }
+
+  .nav-class {
+    padding: 5px;
+  }
+
+  .nav-class a {
+    display: block;
+    margin: 5px 0;
+  }
+}
+.nav-class a.active {
+  font-weight: bold;
+}
